@@ -37,3 +37,30 @@ The method is built around three main components:
 
 Requirements
 Python 3.8 PyTorch 1.13.1 OpenCV-python 4.7.0 numpy 1.24.3 pillow 9.5.0 torchvision 0.14.1 librosa 0.10.1 scipy 1.10.1 matplotlib 3.7.1 tqdm 4.65.0
+
+
+Results
+
+According to the paper, MultiSyncTalk is designed to balance:
+
+controllability
+
+temporal stability
+
+identity preservation
+
+real-time efficiency
+
+It performs competitively on standard metrics and provides stronger head-pose controllability in multi-user interaction settings.
+
+TODO
+
+ Release training code
+
+ Release inference code
+
+ Release preprocessing scripts
+
+ Release pretrained checkpoints
+
+ Release demo examples
