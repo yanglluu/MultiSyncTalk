@@ -1,14 +1,6 @@
 # Controllable-and-Temporally-Stable-Audio-Driven-Talking-Head-Generation-for-Multi-User-Interactions
 Official implementation of **MultiSyncTalk**, a controllable audio-driven talking-head generation framework for multi-user interactive scenarios.
-# MultiSyncTalk: Controllable and Temporally Stable Audio-Driven Talking-Head Generation for Multi-User Interactions
-
-
-
-Official implementation of **MultiSyncTalk**, a controllable audio-driven talking-head generation framework for multi-user interactive scenarios.
-
 ## Overview
-
-MultiSyncTalk is designed for audio-driven talking-head generation with:
 
 - personalized speech-driven facial and head motion
 - explicit head-pose control for multi-user interaction
@@ -42,3 +34,6 @@ The method is built around three main components:
 - `G_audio`: local audio generator for frame-wise motion refinement
 - `IHPE`: explicit pose injection module
 - `SASM`: motion-aware smoothing over pose, expression, and illumination parameters
+
+Requirements
+Python 3.8 PyTorch 1.13.1 OpenCV-python 4.7.0 numpy 1.24.3 pillow 9.5.0 torchvision 0.14.1 librosa 0.10.1 scipy 1.10.1 matplotlib 3.7.1 tqdm 4.65.0
